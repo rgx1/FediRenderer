@@ -3,12 +3,12 @@
 ![](https://i.postimg.cc/bwYSG3xD/Fedi-Viewer-Banner-640x360p.jpg)
 
 -----
+
 ### Long wished for, a way to view user data Backups
 
 '**FediRenderer**' -- a project for a much needed new tool for *viewing User Backup Exports from Mastodon instances in the Fediverse*.
 
------
-### We have a first working version, but what is it ?
+#### We have a first working version, but what is it ?
 
 The basic idea is [*to be able to use the Backup Data Archive*](https://write.tedomum.net/rgx/mastodon-options-for-moving-an-account), which Mastodon instances offer to all users. 
 
