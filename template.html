@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background: #f0f0f0;
+    }
+    .card {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="max-width: 960px">
+    {{#each items}}
+    <div class="card">
+      <div class="card-body">
+        {{{text}}}
+        {{#if image}}
+        <img class="card-img-top" src="{{image}}">
+        {{/if}}
+        {{#if video}}
+        <video class="card-img-top" controls src="{{video}}"></video>
+        {{/if}}
+        <span><small><a class="text-muted" href="{{url}}" target="_blank">{{date}}</a></small></span>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</body>
+</html>
