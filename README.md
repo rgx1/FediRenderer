@@ -1,20 +1,21 @@
-# FediRenderer - A much needed Mastodon tool 
+## FediRenderer - A much needed Mastodon tool 
 
 ![](https://i.postimg.cc/bwYSG3xD/Fedi-Viewer-Banner-640x360p.jpg)
+
 -----
-## Long wished for, a way to view user data Backups[ ](#top) 
+### Long wished for, a way to view user data Backups
 
 '**FediRenderer**' -- a project for a much needed new tool for *viewing User Backup Exports from Mastodon instances in the Fediverse*.
 
 -----
-## We have a first working version, but what is it ?
+### We have a first working version, but what is it ?
 
 The basic idea is [*to be able to use the Backup Data Archive*](https://write.tedomum.net/rgx/mastodon-options-for-moving-an-account), which Mastodon instances offer to all users. 
 
 And which, until now, *we had no way to access or use much at all*. 
 
 -----
-## Backgrounder 
+### Backgrounder 
 
 This is regarding the User Data backup files that mastodon can create. *And which are mostly useless*, since we didn't have ANY software so far capable of accessing and making useful to a user.
 
@@ -23,15 +24,17 @@ This is regarding the User Data backup files that mastodon can create. *And whic
 Eugen R. covered the project's legal obligation, by providing a copy of the user data *as required by the European GDPR regulations*. 
 
 ------
-## FediRenderer Toot display from a backup archive
+### FediRenderer Toot display from a backup archive
 
 A couple of perfectly presented Toots, as viewed by FediRenderer - both have all the links live, a time stamp linked to the original instance's Toot URL, and a media attachment displayed.
 
-   * The sleeping cat. [Original post](https://koyu.space/@yann2/104433987653031736) : 
-      ![](https://i.postimg.cc/cLcjh4tk/Sleeping-Cat-Toot-600x422p.jpg)
+   * The sleeping cat. <br>
+   [Original post](https://koyu.space/@yann2/104433987653031736)
+      [![](https://i.postimg.cc/cLcjh4tk/Sleeping-Cat-Toot-600x422p.jpg)](https://koyu.space/@yann2/104433987653031736)
       
-   *  Two ladies in bed. [Original post](https://koyu.space/@yann2/104435903721994898) : 
-      ![](https://i.postimg.cc/zBycqCt4/Ladies-Bed-Toot-600x389p.jpg)
+   *  Two ladies in bed. <br>
+   [Original post](https://koyu.space/@yann2/104435903721994898) 
+      [![](https://i.postimg.cc/zBycqCt4/Ladies-Bed-Toot-600x389p.jpg)](https://koyu.space/@yann2/104435903721994898)
       
 This is a much needed and until now non-existent viewer utility for the Mastodon user data export files. I have dreamed about one, and never found it.
 
@@ -40,7 +43,7 @@ A young software engineer friend already sent me *a first test version* -- a wor
 This friend is not a Fediverse user, and the protocols and data formats were all new to him.
 
 ------
-## Original developer email brings a working version
+### Original developer email brings a working version
 
 And instructions on how to install and use it. 
 
